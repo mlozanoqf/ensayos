@@ -29,7 +29,7 @@ format:
     toc-location: left
     toc-depth: 2
     page-layout: full
-  #  include-after-body: analytics_fcf.html
+    include-after-body: analytics_ensayos.html
     include-in-header: 
       - back-to-top.html
       - progressbar.html

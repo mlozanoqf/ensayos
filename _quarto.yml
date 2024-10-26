@@ -1,0 +1,38 @@
+title: Ensayos sobre finanzas.
+subtitle: Conceptos básicos.
+author: Dr. Martín Lozano <tt>`<martin.lozano@udem.edu>`</tt>
+date-modified: now
+date-format: "MMMM D, YYYY, HH:mm:ss a."
+
+
+abstract: Los ensayos introductorios en finanzas son una herramienta para construir una comprensión sólida y estructurada del campo, especialmente para quienes inician sus estudios o buscan profundizar en él. Al presentar los conceptos esenciales y los principios que guían el análisis financiero, estos ensayos permiten que los lectores desarrollen un marco de referencia que facilita el aprendizaje de temas más avanzados. Además, ayudan a familiarizarse con el lenguaje técnico y los enfoques analíticos propios de las finanzas, lo que mejora la capacidad de interpretación y análisis en un entorno dinámico y multidisciplinario. Esta exposición inicial permite comprender las interrelaciones entre distintos conceptos y enfoques, preparando al lector para tomar decisiones informadas y abordar los desafíos que se presentan en estudios avanzados y en el ejercicio profesional del análisis financiero.
+
+#bibliography: mybibfile.bib
+  
+theme:
+  light: flatly
+  dark: darkly
+  
+format: 
+  html:
+    toc: true
+    toc-title: Contents
+    smooth-scroll: true
+    code-fold: false
+    code-tools:
+      source: false
+      toggle: true
+    code-block-bg: true
+    code-block-border-left: "#31BAE9"
+    code-line-numbers: true
+    number-sections: true
+    toc-location: left
+    toc-depth: 2
+    page-layout: full
+  #  include-after-body: analytics_fcf.html
+    include-in-header: 
+      - back-to-top.html
+      - progressbar.html
+        
+link-citations: true
+
